@@ -1,0 +1,27 @@
+body {
+  background-color: #cccccc;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+div {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+	text-align:center;
+}
