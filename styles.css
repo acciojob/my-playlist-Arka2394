@@ -1,11 +1,15 @@
 /*  your css code here. If applicable */
 body {
-  background-color: #cccccc;
+  background-color: rgb(204, 204, 204);
   text-align: center;
+}
+h1{
+	text-align:center;
 }
 
 h2 {
   margin-top: 0;
+	  text-align: center;
 }
 
 ul {
@@ -15,10 +19,13 @@ ul {
 
 li {
   margin-bottom: 10px;
+	list-style-type:none;
 }
-
+a{
+	text-decoration:none;
+}
 .player_one {
-  background-color: white;
+  background-color: rgb(255,255,255);
   width: 400px;
   margin: 20px auto;
   padding: 20px;
@@ -28,10 +35,11 @@ li {
 
 .player_two {
   margin: 20px auto;
+	 rgb(255,255,255);
 }
 
 .player_three {
-  background-color: white;
+  background-color:  rgb(255,255,255);
   width: 400px;
   margin: 20px auto;
   padding: 20px;
