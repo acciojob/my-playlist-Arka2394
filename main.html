@@ -1,35 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Playlist Webpage</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="player_one">
-      <h1>My Playlist</h1>
-      <ul>
-        <li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank">Song 1</a></li>
-        <li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank">Song 2</a></li>
-        <li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank">Song 3</a></li>
-        <li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank">Song 4</a></li>
-        <li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank">Song 5</a></li>
-      </ul>
-    </div>
-    <div class="player_two">
-		<h2>Now Playing...</h2>
-      <video width="320" height="240" controls>
-        <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
-    <div class="player_three">
-      <h2>MP3 songs</h2>
-      <audio controls>
-        <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-    </div>
-  </body>
+<head>
+	<title>My Playlist</title>
+	<style>
+		body {
+			background-color: #cccccc;
+		}
+		
+		.player_one {
+			margin: 10px;
+			padding: 10px;
+			background-color: #ffffff;
+			border: 1px solid #000000;
+		}
+		
+		.player_one a {
+			display: block;
+			margin-bottom: 5px;
+			text-decoration: none;
+			color: #000000;
+			font-weight: bold;
+		}
+		
+		.player_two {
+			margin: 10px;
+			padding: 10px;
+			background-color: #ffffff;
+			border: 1px solid #000000;
+		}
+		
+		.player_two video {
+			width: 100%;
+			height: auto;
+		}
+		
+		.player_mp3 {
+			margin: 10px;
+			padding: 10px;
+			background-color: #ffffff;
+			border: 1px solid #000000;
+		}
+		
+		.player_mp3 audio {
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="player_one">
+		<a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank">Song 1</a>
+		<a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank">Song 2</a>
+		<a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank">Song 3</a>
+		<a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank">Song 4</a>
+		<a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank">Song 5</a>
+	</div>
+	
+	<div class="player_two">
+		<video controls>
+			<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+		</video>
+	</div>
+	
+	<div class="player_mp3">
+		<audio controls>
+			<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+		</audio>
+	</div>
+</body>
 </html>
